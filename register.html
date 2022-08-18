@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style2.css">
+  <title>Register</title>
+</head>
+<body>
+  <nav class="main_nav">
+    <div class="container1">
+      <div class="logo">Haleemat</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html">About</a>
+          <nav class="sub_nav">
+            <ul>
+              <li><a href="#goals">Goals</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#experience">Job Experience</a></li>
+              <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+          </nav>
+        </li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <h1>Register</h1>
+    <form class="my-form" action="">
+      <div class="form-group">
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name" placeholder="first name" required> 
+      </div>
+      <div class="form-group">
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name" placeholder="last name" required>
+      </div>
+      <div class="form-group">
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" name="phone_number" id="phone_number" placeholder="phone number" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="country">Country:</label>
+        <input type="text" name="country" id="country" placeholder="country" required>
+      </div>
+      <div class="form-group">
+        <label for="state/province">State/Province:</label>
+        <input type="text" name="state/province" id="state/province" placeholder="state/province" required>
+      </div>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" name="confirm_password" id="confirm_password" placeholder="confirm_password" required>
+      </div>
+      <button class="button">Submit</button>
+    </form>
+  </div>
+  <footer id="footer">
+    <p>Copyright &copy; 2022 About me</p>
+  </footer>
+</body>
+</html>
